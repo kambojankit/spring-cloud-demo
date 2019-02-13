@@ -1,8 +1,0 @@
---liquibase formatted sql
---changeset ankit.kamboj:001.1
-CREATE TABLE PRODUCT (
-  ID NUMBER NOT NULL AUTO_INCREMENT,
-  PRODUCT_NAME VARCHAR2(255) NULL,
-  PRODUCT_PRICE NUMBER NOT NULL
-);
---rollback DROP TABLE PRODUCT;
